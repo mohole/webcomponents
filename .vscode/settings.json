@@ -1,3 +1,5 @@
 {
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "editor.useTabStops": true
 }

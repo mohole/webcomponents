@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WebComponents</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WebComponents</title>
+    
+  <script>
+    window.addEventListener('WebComponentsReady', function(){
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = "./script.js";
+      document.body.appendChild(script);
+    });
+  </script>
+  <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/master/webcomponents-sd-ce.js"></script>
 </head>
 <body>
-    
+
+  <basic-element></basic-element>
+
 </body>
 </html>
