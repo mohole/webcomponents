@@ -14,5 +14,14 @@ module.exports = {
       test: /\.html$/,
       use: 'text-loader'
     }]
+  },
+  devServer: {
+    contentBase: './dist',
+    compress: true,
+    overlay: {
+      errors: true
+    },
+    port: 8081,
+    host: 'localhost'
   }
 }

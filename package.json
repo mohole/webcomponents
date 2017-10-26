@@ -7,7 +7,7 @@
   "author": "salvatore.laisa@mohole.it",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --hot",
     "deploy": "webpack & gh-pages -d dist"
   },
   "devDependencies": {
