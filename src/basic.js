@@ -5,15 +5,15 @@ class BasicElement extends HTMLElement {
   constructor(){
     super();
 
-    this.shadow = this.attachShadow({mode: 'open'});
+    // this.shadow = this.attachShadow({mode: 'open'});
   }
 
   connectedCallback(){
     console.log('<basic-element> INIT');
 
-    this.shadow.innerHTML = `
+    this.innerHTML = `
       <style>
-        section{
+        section.basic-element{
           border: 1px solid #ddd;
           padding: 5px 15px;
           margin: 15px 0;

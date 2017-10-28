@@ -1,3 +1,3 @@
 'use strict';
 
-import './basic';
+import './basics/hello';

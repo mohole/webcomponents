@@ -1,0 +1,8 @@
+.panel{
+  position: relative;
+  background: #eee;
+  width: 300px;
+  padding: 15px 0 2px;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}

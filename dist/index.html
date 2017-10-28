@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WebComponents</title>
+
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" href="./style.css">
     
   <script>
     window.addEventListener('WebComponentsReady', function(){
@@ -14,19 +18,17 @@
       document.body.appendChild(script);
     });
   </script>
-  <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/master/webcomponents-sd-ce.js"></script>
+  <script src="https://cdn.rawgit.com/webcomponents/webcomponentsjs/master/webcomponents-lite.js"></script>
 </head>
-<body>
+<body> 
 
-  <h1>WebComponents @ Mohole</h1>
-
-  <basic-element>
-    <p>Web Components FTW!</p>
-  </basic-element>
-
-  <basic-element>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id quisquam, perspiciatis veritatis natus, nihil sapiente velit dolor delectus aliquam minus in, repellat explicabo nobis nostrum? Sit explicabo rem dolor.</p>
-  </basic-element>
-
+  <section class="container">
+    <h1>WebComponents @ Mohole</h1>
+    
+    <hello-element></hello-element>
+    <hello-element id="foo"></hello-element>
+    <hello-element id="bar"></hello-element>
+  </section>
+      
 </body>
 </html>
